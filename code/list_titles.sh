@@ -1,4 +1,4 @@
-for i in recordings/longnow/Long_Now__Seminars*/*.mp3; do
+for i in recordings/longnow/Long_Now*/*.mp3; do
    # get the filename
    base=$(basename "$i");
    # strip the extension
